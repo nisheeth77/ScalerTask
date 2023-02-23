@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    color: white;
+    background-color: rgb(127, 241, 74);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main_heading
+{
+    
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: poppins;
+}
+
+
+.btn_primary
+{
+   background-color: rgb(240, 199, 136);
+   color: aliceblue;
+   font-family: poppins;
+    font-weight: 700;
+    font-size: 15px;
+    border-width: 3px;
+   border-color: rgb(240, 199, 136) ;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.btn_primary:hover
+{
+    
+    color:rgb(240, 199, 136) ;
+    background-color: aliceblue;
+
+}
+
+.form{
+    z-index: 1;
+    border: 3px #00acba solid;
+    width: 35%;
+    left:70vh;
+    border-radius: 10px;
+    display: block;
+    position: fixed;
+}
+.form_header
+{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: poppins;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    padding: 20px;
+    background-color: rgb(0,172,186);
+}
+#cross
+{
+
+    font-size: 20px;
+}
+input{
+    margin-left: 70px;
+    font-family: poppins;
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    border: 2px black solid;
+    padding-left: 10px ;
+}
+.input_container
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label
+{
+   
+    font-family: poppins;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.form_btn
+{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left:100px;
+    width: 50% ;
+    background-color: rgb(240, 199, 136);
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+     font-weight: 400;
+     font-size: 20px;
+     border-width: 3px;
+    border-color: rgb(240, 199, 136) ;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 10px;
+     transition: 0.4s;
+}
+.form_btn:hover
+{
+    
+    color:rgb(240, 199, 136) ;
+    background-color: rgb(255, 255, 255);
+
+}
+#st{
+    width: 33%;
+}
+#et
+{
+    margin-left: 10px;
+    width: 33%;
+}
